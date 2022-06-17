@@ -654,5 +654,5 @@ disjoint_stack_sfs concrete_stack ini_sfs ->
 optimize_mul_one symbol_opt ini_sfs = Some opt_sfs ->
 evaluate_sfs_from_map d concrete_stack ini_sfs symbol = 
 evaluate_sfs_from_map d concrete_stack opt_sfs symbol.
-Proof.
-Admitted.
+Proof. Admitted.
+
